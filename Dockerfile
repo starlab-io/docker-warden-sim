@@ -11,4 +11,4 @@ RUN pip3.6 install virtualenv
 RUN ln -s /usr/bin/python3.6 /usr/bin/python3 && \
     ln -s /usr/bin/pip3.6 /usr/bin/pip3
 
-RUN pip3 install protobuf flask pytest
+RUN pip3 install protobuf flask pytest pymongo
