@@ -9,4 +9,4 @@ RUN yum -y install https://centos7.iuscommunity.org/ius-release.rpm && \
 
 RUN pip3 install virtualenv
 
-RUN pip3 install protobuf flask pytest pymongo
+RUN pip3 install protobuf flask pytest pymongo numpy tensorflow keras
